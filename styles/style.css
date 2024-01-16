@@ -789,7 +789,7 @@ line-height: 36px; /* 150% */
   max-width: 71.88rem;
   margin: 0 auto;
   margin-top: 6.25rem;
-  margin-bottom: 2rem;
+  
   display: flex;
   justify-content: space-between;
   gap: 1.5rem;
@@ -839,7 +839,7 @@ background: rgba(19, 19, 24, 0.05);
   margin-bottom: 1rem;
 }
 .newslatter-btn{
-  padding: 16px 130px 16px 130px;
+  padding: 16px 168px 16px 168px;
   
   display: flex;
   align-items: center;
@@ -854,6 +854,7 @@ font-weight: 800;
 line-height: normal;
 border-radius: 8px;
 background: #FF5400;
+border: none;
 cursor: pointer;
 transition: all 1s ease-out;
 }
@@ -903,6 +904,65 @@ font-family: Mulish;
 font-size: 32px;
 font-style: normal;
 font-weight: 800;
+line-height: normal;
+}
+
+/*footer section ----------------------------------------------------*/
+footer{
+  background: rgba(19, 19, 24, 0.05);
+  margin-top: 6.25rem;
+  height: 512px;
+}
+.logo-handler{
+   display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  
+}
+.footer-logo{
+ margin-top: 110px;
+ display: flex;
+ align-items: center;
+  /* margin-bottom:-3rem;
+  margin-top: 3rem; */
+}
+.footer-description{
+  color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+}
+.footer-icon{
+width: 872px;
+flex-shrink: 0;
+border-bottom: 1px solid  rgba(19, 19, 24, 0.10);
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+gap: 1.5rem;
+padding: 2rem;
+}
+.copyright{
+  padding: 2rem;
+  
+  text-align: center;
+  
+}
+.copyright-title{
+  color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
 line-height: normal;
 }
 /*--------responsive--------------------------------------------------------------------------------------------------*/
@@ -1330,6 +1390,9 @@ line-height: 30px; /* 150% */
   .newslatter-input{
     padding: 16px 118px 16px 20px;
   }
+  .newslatter-btn{
+    padding: 0.88rem 6.75rem;
+  }
   .newslatter-natural-view{
     width: 100%;
 height: 300px;
@@ -1364,6 +1427,24 @@ font-size: 21.138px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+  }
+  /*footer section star-----------------*/
+  footer{
+    height: 350px;
+    margin-top: 20px;
+  }
+  .footer-icon{
+    width: 80%;
+    
+  }
+  .twitter , .fb, .linkind, .insta{
+    width: 2rem;
+  }
+  .logo-handler{
+    margin-top: 1rem;
+  }
+  .footer-logo{
+    margin-top: 3rem;
   }
 
 }
