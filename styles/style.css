@@ -1331,7 +1331,7 @@ line-height: 30px; /* 150% */
     padding: 16px 118px 16px 20px;
   }
   .newslatter-natural-view{
-    width: 90vw;
+    width: 100%;
 height: 300px;
 flex-shrink: 0;
 
@@ -1340,7 +1340,7 @@ flex-shrink: 0;
   .newslatter-natural-view-box{
     width: 214.023px;
 height: 79.268px;
-left: 120px;
+left: 110px;
 top: 192px;
 
 
