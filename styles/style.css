@@ -784,7 +784,79 @@ font-style: normal;
 font-weight: 700;
 line-height: 36px; /* 150% */
 }
+/*review section ------------------------------------------------*/
+.review-container{
+  max-width: 71.88rem;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 130px;
+  
+  gap: 1.5rem;
+}
+.review-content{
+  padding-left: 2rem;
+}
+ .review-container-img{
+  background: url("../Images/world-map.jpg");
+  width: 600px;
+height: 424px;
+flex-shrink: 0;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover ;
+border-radius: 1rem;
+ }
+ .review-content-head-1{
+  color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 1rem;
+ }
+ .review-content-head-2{
+  color: #131318;
+
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 10px;
+ }
+ .rating{
+  color: #FF5400;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 8px;
+ }
+ .description{
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-bottom: 1rem;
+ }
+ .review-img-container{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ }
+ 
+ .review-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+ }
+
 /*newslatter-section------------------------------------------------------------------*/
+
 .newslatter-container{
   max-width: 71.88rem;
   margin: 0 auto;
@@ -1166,6 +1238,8 @@ line-height: normal;
   .destination-img-7 {
     width: 100%;
   }
+  
+
   /*choose-us-section*/
   .choose-us-container {
     margin-top: 1.5rem;
@@ -1372,6 +1446,22 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: 30px; /* 150% */
+  }
+
+  /*review section  ----------------------------------------*/
+  .review-container{
+    flex-direction: column-reverse;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  .review-content{
+    width: 95%;
+    padding: 0.5rem;
+  }
+  .review-container-img{
+    
+    width: 100%;
+    height: 300px;
   }
   /*newslatter section-------------------------------------------------------*/
   .newslatter-container{
