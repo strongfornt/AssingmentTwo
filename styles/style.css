@@ -62,7 +62,7 @@ nav {
     ),
     url("../Images/Group\ 13\ \(1\)\ \(1\).png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 .banner-content {
@@ -237,7 +237,7 @@ nav {
   max-width: 71.88rem;
   margin: 0 auto;
   margin-top: 6.25rem;
-  margin-bottom: 4rem;
+  
 }
 .destination-content {
   display: flex;
@@ -418,7 +418,114 @@ nav {
   line-height: normal;
 }
 
+
+/*choose-us-section-start*/
+.choose-us-container{
+  max-width: 71.88rem;
+  margin: 0 auto;
+  margin-top: 6.25rem;
+  
+  margin-bottom: 3rem;
+}
+.choose-us-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.choose-us-content-head{
+  color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 1.5rem;
+}
+.choose-us-content-description{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.choose-us-card-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.choose-us-first-two-card{
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.choose-us-card-1{
+  width: 30.94rem;
+flex-shrink: 0;
+border: 1px solid red;
+padding: 2rem;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.choose-us-card-icon-1, .choose-us-card-2-icon, .choose-us-card-3-icon{
+  width: 64px;
+height: 40px;
+margin-bottom: 1rem;
+
+}
+.choose-us-card-head, .choose-us-card-2-head, .choose-us-card-3-head{
+  color: #131318;
+
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 0.6rem;
+}
+.choose-us-card-description, .choose-us-card-2-description, .choose-us-card-3-description{
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.choose-us-card-2{
+  width: 30.94rem;
+  padding: 2rem;
+
+flex-shrink: 0;
+border: 1px solid red;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.choose-us-card-3{
+  margin: 0 auto;
+  width: 30.94rem;
+  padding: 2rem;
+border: 1px solid red;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+
+
 /*--------responsive-----------*/
+@media screen and (min-width:992px) {
+       .menu-icon{
+        display: none;
+       }
+}
 
 @media screen and (max-width: 576px) {
   .menu {
@@ -427,12 +534,34 @@ nav {
   nav {
     padding: 0 1rem;
   }
+  .logo-img{
+    width: 30.724px;
+/* height: 33.516px; */
+flex-shrink: 0;
+  }
+  .website {
+    color: #131318;
+font-family: Mulish;
+font-size: 21.543px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+  .website-color{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 21.543px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
   .banner-container {
     width: 90%;
     height: 91vh;
     background-position: center;
     background-size: cover;
     padding: 0 16px;
+    margin-top: 1.5rem;
   }
   .banner-content-head {
     color: #fff;
@@ -591,5 +720,57 @@ nav {
   .destination-img-6,
   .destination-img-7 {
     width: 100%;
+  }
+  /*choose-us-section*/
+  .choose-us-container{
+    margin-top: 1.5rem;
+  }
+  .choose-us-content{
+    padding: 1rem ;
+    margin-bottom:0.2rem;
+    
+  }
+  .choose-us-card-head{
+    margin-bottom: 0.5rem;
+  }
+  .choose-us-card-container{
+    padding: 1rem;
+  }
+  .choose-us-first-two-card{
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    
+   
+  }
+  .choose-us-card-1 , .choose-us-card-2{
+    width: 100%;
+    padding: 1rem;
+   
+  }
+  .choose-us-card-3 {
+     width: 92%;
+     padding: 1rem;
+  }
+  .choose-us-card-icon-1, .choose-us-card-2-icon, .choose-us-card-3-icon{
+    width: 48px;
+height: 30px;
+flex-shrink: 0;
+  }
+  .choose-us-card-head, .choose-us-card-2-head, .choose-us-card-3-head{
+    color: #131318;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+  .choose-us-card-description, .choose-us-card-2-description, .choose-us-card-3-description{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
   }
 }
