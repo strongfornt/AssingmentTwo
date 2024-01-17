@@ -166,7 +166,7 @@ nav {
   
     color: #ff5400;
 } */
-.banner-container-btn:hover{
+.banner-container-btn:hover {
   color: #ff5400;
   background: #eee6e6;
 }
@@ -569,7 +569,8 @@ nav {
 
   margin: 0 auto;
   margin-top: 3rem;
-  border-radius: 16px;
+  
+  border-radius: 1rem;
   background: url("../Images/Group\ 39.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -830,18 +831,17 @@ nav {
   line-height: normal;
   margin-bottom: 10px;
 }
-.rating-container{
+.rating-container {
   display: flex;
   align-items: center;
   gap: 8px;
   margin-bottom: 1rem;
 }
-.rating-title{
-  color: blue;
+.rating-title {
+  color: rgb(180, 180, 35);
 }
 .rating {
-  width: 5rem;
- 
+  width: 6rem;
 }
 .description {
   color: #5a5a5d;
@@ -1096,8 +1096,18 @@ footer {
     width: 33.91rem;
   }
   /*chose section--------------------*/
+  .choose-us-container {
+    max-width: 61rem;
+  }
   .choose-us-first-two-card {
-    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .choose-us-card-1,
+  .choose-us-card-2,
+  .choose-us-card-3 {
+    width: 27.82rem;
+    padding: 1rem;
   }
   /*deals section ----------------*/
   .deals-first-section-container {
@@ -1571,7 +1581,7 @@ footer {
     padding: 1rem;
   }
   .newslatter-content-input {
-    width: 16rem;
+    width: 19rem;
   }
   /* .newslatter-input{
     
@@ -1611,8 +1621,11 @@ footer {
   }
   /*footer section star-----------------*/
   footer {
-    height: 350px;
+    height: 400px;
     margin-top: 20px;
+  }
+  .footer-description {
+    padding: 0 0.8rem;
   }
   .footer-icon {
     width: 80%;
